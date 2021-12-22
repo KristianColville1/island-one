@@ -15,7 +15,7 @@ I want to build a stand alone app that possibly contains a game that a user can 
 <p> VS code </p>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png" width="30%" height="30%">
 
-### Logs
+## History
 
 <p><em>22/12/2021</em>
 Created a basic GUI for the app, still figuring out the UI and size. I determined that it should be bigger than 450x450 and will investigate it further and test different sizes.</p>
