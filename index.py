@@ -3,14 +3,14 @@ Application, Author: Kristian Colville
 """
 from tkinter import Button, Tk, messagebox
 
-front = Tk()
-front.geometry('600x450')
+main = Tk()
+main.geometry('600x450')
 
-def pop_up():
+def calculate():
     """Pops up a seperate window after clicking button"""
     messagebox.showinfo('Pop up', 'Hi there!')
 
-buttonA = Button(front, text = 'Push me', command = pop_up)
-buttonA.place(x= 0, y= 0)
+button1 = Button(main, text = 'result', command = calculate)
+button1.place()
 
-front.mainloop()
+main.mainloop()
